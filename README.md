@@ -36,28 +36,52 @@ Billing Amount
 🔄 Project Workflow
 
 Healthcare Dataset
+
        ↓
+
 Data Cleaning
+
        ↓
+
 Label Encoding
+
        ↓
+
+
 Feature Scaling
+
        ↓
+
 Exploratory Data Analysis
+
        ↓
-Elbow Method
+
+  Elbow Method
+  
        ↓
+
 K-Means Clustering
+
        ↓
+
 Generate Cluster Labels
+
        ↓
+
 Random Forest Classification
+
        ↓
+
 Save Trained Model
+
        ↓
+
 Flask Web Application
+
        ↓
+
 New Patient Prediction
+
 
 🤖 Machine Learning Models
 1. K-Means Clustering
@@ -110,20 +134,35 @@ VS Code	Development environment
 📁 Project Structure
 
 Hospital-Patient-Segmentation/
+
 │
+
 ├── app.py
+
 ├── train_model.py
+
 ├── healthcare_dataset.csv
+
 ├── model.pkl
+
 ├── scaler.pkl
+
 ├── encoder.pkl
+
 ├── requirements.txt
+
 ├── README.md
+
 │
+
 ├── templates/
+
 │   └── index.html
+
 │
+
 └── static/
+
     ├── style.css
     ├── script.js
     └── hospital.jpg
